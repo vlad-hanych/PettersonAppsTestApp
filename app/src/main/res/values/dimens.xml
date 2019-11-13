@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialogue_fact_width">300dp</dimen>
+
+    <dimen name="dialogue_fact_text_margin">43dp</dimen>
+
+    <dimen name="dialogue_fact_text_size">17sp</dimen>
+
+    <dimen name="dialogue_fact_butt_height">43dp</dimen>
+
+    <dimen name="search_field_top_margin">3dp</dimen>
+
+    <dimen name="search_field_start_margin">3dp</dimen>
+
+    <dimen name="search_field_width">200dp</dimen>
+
+    <dimen name="search_field_height">40dp</dimen>
+
+    <dimen name="search_field_padding">5dp</dimen>
+
+    <dimen name="list_top_margin">3dp</dimen>
+
+    <dimen name="list_bottom_margin">3dp</dimen>
+
+    <dimen name="item_breeds_top_margin">3dp</dimen>
+
+    <dimen name="item_breeds_start_margin">7dp</dimen>
+
+    <dimen name="item_breeds_end_margin">7dp</dimen>
+
+    <dimen name="item_breed_header_top_margin">55dp</dimen>
+
+    <dimen name="item_breed_header_start_margin">50dp</dimen>
+
+    <dimen name="item_breed_butt_height">35dp</dimen>
+
+    <dimen name="item_breed_butt_padding_end">11dp</dimen>
+
+    <dimen name="item_breed_butt_padding_bottom">2dp</dimen>
+
+    <dimen name="item_breed_butt_text_size">20sp</dimen>
+
+    <dimen name="item_breed_butt_end_margin">35dp</dimen>
+
+    <dimen name="item_breed_text_top_margin">5dp</dimen>
+
+    <dimen name="item_breed_text_start_margin">10dp</dimen>
+
+    <dimen name="item_breed_header_text_size">18sp</dimen>
+
+    <dimen name="item_breed_text_size">14sp</dimen>
+
+    <dimen name="item_breed_bottom_text_bottom_margin">45dp</dimen>
+
+</resources>

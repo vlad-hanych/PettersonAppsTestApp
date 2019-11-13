@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3542B6</color>
+    <color name="colorPrimaryDark">#1F277E</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="itemBreedBackNormalColour">#CFE2F3</color>
+    <color name="itemBreedBackPressedColour">#99A5B4</color>
+    <color name="itemBreedStrokeColour">#1D1E1E</color>
+    <color name="itemBreedTextColour">#000000</color>
+    <color name="dialogueFactButtTextColour">#E00511</color>
+</resources>

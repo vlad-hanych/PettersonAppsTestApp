@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dialogue_fact_width"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/dialogue_fact_backg"
+    >
+
+    <TextView
+        android:id="@+id/fact_txtV_dialFact"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/dialogue_fact_text_margin"
+        style="@style/DialogueFactTxtVStyle"
+        android:textColor="@android:color/black"
+        />
+
+    <ImageView
+        android:id="@+id/imgVw3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fact_txtV_dialFact"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_dialogue_fact_hor_divdr"
+        />
+
+    <FrameLayout
+        android:id="@+id/coolCont_framLay_dialFact"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialogue_fact_butt_height"
+        android:layout_below="@+id/imgVw3"
+        android:clickable="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style="@style/DialogueFactTxtVStyle"
+            android:textColor="@color/dialogueFactButtTextColour"
+            android:text="@string/dialogue_fact_butt_text"
+            />
+
+    </FrameLayout>
+
+</RelativeLayout>

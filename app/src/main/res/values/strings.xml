@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PettersonAppsTestApp</string>
+
+    <string name="data_search_filed_hint">Search</string>
+
+    <string name="dialogue_fact_butt_text">Круто!</string>
+
+    <string name="item_breed_butt_text">share</string>
+</resources>

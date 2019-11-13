@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_breed_rounded_backg"
+    android:layout_marginTop="@dimen/item_breeds_top_margin"
+    android:layout_marginStart="@dimen/item_breeds_start_margin"
+    android:layout_marginEnd="@dimen/item_breeds_end_margin"
+    >
+
+    <TextView
+        android:id="@+id/name_txtV_itemBr"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/item_breed_header_top_margin"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/item_breed_header_start_margin"
+        style="@style/ItemBreedTxtVStyle"
+        android:textSize="@dimen/item_breed_header_text_size"
+        android:maxEms="10"
+        />
+
+    <Button
+        android:id="@+id/share_butt_itemBr"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/item_breed_butt_height"
+        android:layout_marginEnd="@dimen/item_breed_butt_end_margin"
+        android:background="@drawable/item_breed_butt_rounded_backg"
+        android:gravity="bottom|center_horizontal"
+        android:paddingEnd="@dimen/item_breed_butt_padding_end"
+        android:paddingBottom="@dimen/item_breed_butt_padding_bottom"
+        android:text="@string/item_breed_butt_text"
+        android:textAllCaps="false"
+        android:textSize="@dimen/item_breed_butt_text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/name_txtV_itemBr"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="sans-serif-condensed"
+        android:autoSizeTextType="uniform"
+        />
+
+    <TextView
+        android:id="@+id/country_txtV_itemBr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/name_txtV_itemBr"
+        app:layout_constraintStart_toStartOf="@id/name_txtV_itemBr"
+        style="@style/ItemBreedTxtVStyle"
+        android:maxEms="14"
+        />
+
+    <TextView
+        android:id="@+id/origin_txtV_itemBr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/country_txtV_itemBr"
+        app:layout_constraintStart_toStartOf="@id/name_txtV_itemBr"
+        style="@style/ItemBreedTxtVStyle"
+        />
+
+    <TextView
+        android:id="@+id/coat_txtV_itemBr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/origin_txtV_itemBr"
+        app:layout_constraintStart_toStartOf="@id/name_txtV_itemBr"
+        style="@style/ItemBreedTxtVStyle"
+        />
+
+    <TextView
+        android:id="@+id/pattern_txtV_itemBr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/coat_txtV_itemBr"
+        app:layout_constraintStart_toStartOf="@id/name_txtV_itemBr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        style="@style/ItemBreedTxtVStyle"
+        android:layout_marginBottom="@dimen/item_breed_bottom_text_bottom_margin"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

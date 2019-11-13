@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ItemBreedTxtVStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/item_breed_text_top_margin</item>
+        <item name="android:layout_marginStart">@dimen/item_breed_text_start_margin</item>
+        <item name="android:textSize">@dimen/item_breed_text_size</item>
+        <item name="android:textColor">@color/itemBreedTextColour</item>
+        <item name="android:autoSizeTextType">uniform</item>
+    </style>
+
+    <style name="DialogueFactTxtVStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/dialogue_fact_text_size</item>
+        <item name="android:autoSizeTextType">uniform</item>
+    </style>
+
+</resources>
